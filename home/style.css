@@ -1,14 +1,16 @@
 body {
   background-color: #fff;
+  text-align: center;
 }
 .card {
   /* カードの基本的なスタイル */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* 影の追加 */
-  transition: 0.3s; /* ホバー時のアニメーション効果 */
+  transition: 1.0s; /* ホバー時のアニメーション効果 */
   border-radius: 5px; /* 角丸 */
   width: 300px; /* カードの幅 */
   background-color: #f9f9f9; /* 背景色 */
   margin: 20px; /* 他の要素との余白 */
+  display: inline-block;
 }
 
 /* ホバー時の影を深くする */
@@ -19,8 +21,6 @@ body {
 /* カード内部の余白 */
 .container {
   padding: 16px;
-  display: flex;
-  justify-content: center;
 }
 
 /* テキストのスタイル */
