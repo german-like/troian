@@ -1,5 +1,5 @@
 body {
-  background-color: #9fccd9;
+  background-color: #6ccca9;
 }
 .card {
   /* カードの基本的なスタイル */
@@ -19,6 +19,7 @@ body {
 /* カード内部の余白 */
 .container {
   padding: 16px;
+  margin: 0 auto;
 }
 
 /* テキストのスタイル */
