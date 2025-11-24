@@ -8,6 +8,7 @@ body {
   transition: 1.0s; /* ホバー時のアニメーション効果 */
   border-radius: 5px; /* 角丸 */
   width: 300px; /* カードの幅 */
+  height: 200px; /* カードの高さ */
   background-color: #f9f9f9; /* 背景色 */
   margin: 20px; /* 他の要素との余白 */
   display: inline-block;
