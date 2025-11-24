@@ -21,10 +21,11 @@ body {
 /* カード内部の余白 */
 .container {
   padding: 16px;
+  margin: 16px;
 }
 
 /* テキストのスタイル */
-.container h2 {
+.container h2,a {
   font-size: 20px;
   margin-bottom: 10px;
   color: #333;
