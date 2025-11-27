@@ -20,7 +20,7 @@ body {
 
 /* カード内部の余白 */
 .container {
-  padding: 2px;
+  padding: 10px;
   margin: 2px;
 }
 
