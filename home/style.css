@@ -1,12 +1,6 @@
 body {
   background-color: #fff;
-  text-align: center; /* ← 横位置はそのまま */
-  
-  display: flex;
-  align-items: center;     /* 縦方向の中央揃え */
-  justify-content: flex-start; /* 横方向は揃えない */
-  
-  min-height: 100vh;      /* 画面全体の高さにするため必要 */
+  text-align: center; /* 横だけ中央揃え */
 }
 
 .card {
@@ -16,7 +10,7 @@ body {
   width: 300px;
   height: 50px;
   background-color: #f9f9f9;
-  margin: 20px;
+  margin: 0 auto;
 }
 
 /* ホバー時の影を深くする */
@@ -26,14 +20,14 @@ body {
 
 /* カード内部の余白 */
 .container {
-  padding: 16px;
-  margin: 16px;
+  padding: 2px;
+  margin: 2px;
 }
 
 /* テキストのスタイル */
 .container a {
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 46px;
+  margin-bottom: 0px;
   color: #333;
   text-decoration: none;
 }
